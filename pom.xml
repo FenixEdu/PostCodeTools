@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+	<groupId>org.fenixedu</groupId>
+        <artifactId>fenix-framework-project</artifactId>
+        <version>2.2.0</version>
+    </parent>
+
+    <artifactId>postCodeTools</artifactId>
+    <name>PostCodeTools</name>
+    <version>DEV-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <scm>
+	<connection>scm:git:git@github.com:Luis-Cruz/PostCodeTools.git</connection>
+        <developerConnection>scm:git:git@github.com:Luis-Cruz/PostCodeTools.git</developerConnection>
+        <url>https://github.com/Luis-Cruz/PostCodeTools</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>fenixedu-maven-repository</id>
+            <url>https://repo.fenixedu.org/fenixedu-maven-repository</url>
+        </repository>
+    </repositories>
+
+</project>
+
