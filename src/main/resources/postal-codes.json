@@ -1950,5 +1950,13 @@
     "Format": "AAAANAA one code: PCRN 1ZZ",
     "Regex": "^[Pp][Cc][Rr][Nn]\\s{0,1}[1][Zz]{2}$",
     "Example": "pCRN1zZ"
+  },
+  {
+    "Note": "Rwanda does not have postal codes",
+    "Country": "Rwanda",
+    "ISO": "RW",
+    "Format": "None",
+    "Regex": "*",
+    "Example": ""
   }
 ]
