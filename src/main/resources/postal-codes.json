@@ -381,7 +381,7 @@
     "ISO": "SE",
     "Format": "NNNNN (NNN NN)",
     "Regex": "^\\d{5}\\s\\(\\d{3}\\s\\d{2}\\)$",
-    "Example": "94287\f(700\r40)"
+    "Example": "700 40"
   },
   {
     "Note": "Each building has its own unique postcode.",
