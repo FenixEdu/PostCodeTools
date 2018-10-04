@@ -1956,7 +1956,7 @@
     "Country": "Rwanda",
     "ISO": "RW",
     "Format": "None",
-    "Regex": "*",
-    "Example": ""
+    "Regex": "",
+    "Example": "Desconhecido"
   }
 ]
