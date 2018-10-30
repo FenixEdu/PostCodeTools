@@ -380,7 +380,7 @@
     "Country": "Sweden",
     "ISO": "SE",
     "Format": "NNNNN (NNN NN)",
-    "Regex": "^\\d{5}\\s\\(\\d{3}\\s\\d{2}\\)$",
+    "Regex": "^(\\d{5}|\\d{3}\\s\\d{2})$",
     "Example": "700 40"
   },
   {
