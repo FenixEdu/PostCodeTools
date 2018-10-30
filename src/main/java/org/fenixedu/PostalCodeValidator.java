@@ -31,6 +31,15 @@ public class PostalCodeValidator {
         }
     }
 
+    /**
+     * This method validates a post code against an expected RegEx for each 
+     * country.
+     * 
+     * @param countryCode ISO 3166 Alfa-2 two letter country code.
+     * @param postCode A post code value to be validated.
+     * @return true if the supplied post code has the correct format for the 
+     *         specified country code otherwise false.
+     */
     public static boolean isValidAreaCode(final String countryCode, final String postCode) {
         final String regex = fieldFor(countryCode, "Regex");
         final Pattern pattern = Pattern.compile(regex);
@@ -38,10 +47,23 @@ public class PostalCodeValidator {
         return matcher.matches();
     }
 
+    /**
+     * This method provides an example post code for each country.
+     * 
+     * @param countryCode ISO 3166 Alfa-2 two letter country code.
+     * @return An example post code value.
+     */
     public static String examplePostCodeFor(final String countryCode) {
         return fieldFor(countryCode, "Example");
     }
 
+    /**
+     * This method provides a "human readable" format that a post code for
+     * each country should have.
+     * 
+     * @param countryCode ISO 3166 Alfa-2 two letter country code
+     * @return A human readable format for a post code of the specified country.
+     */
     public static String formatFor(final String countryCode) {
         return fieldFor(countryCode, "Format");
     }
