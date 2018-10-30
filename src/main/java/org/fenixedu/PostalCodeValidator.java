@@ -32,16 +32,23 @@ public class PostalCodeValidator {
     }
 
     public static boolean isValidAreaCode(final String countryCode, final String postCode) {
-        final JsonObject validator = validator(countryCode);
-        final String regex = validator.get("Regex").getAsString();
+        final String regex = fieldFor(countryCode, "Regex");
         final Pattern pattern = Pattern.compile(regex);
         final Matcher matcher = pattern.matcher(postCode);
         return matcher.matches();
     }
 
     public static String examplePostCodeFor(final String countryCode) {
+        return fieldFor(countryCode, "Example");
+    }
+
+    public static String formatFor(final String countryCode) {
+        return fieldFor(countryCode, "Format");
+    }
+
+    private static String fieldFor(final String countryCode, final String field) {
         final JsonObject validator = validator(countryCode);
-        final JsonElement exJo = validator.get("Example");
+        final JsonElement exJo = validator.get(field);
         return exJo == null || exJo.isJsonNull() ? null : exJo.getAsString();
     }
 
