@@ -13,9 +13,9 @@
     <packaging>jar</packaging>
 
     <scm>
-	<connection>scm:git:git@github.com:Luis-Cruz/PostCodeTools.git</connection>
-        <developerConnection>scm:git:git@github.com:Luis-Cruz/PostCodeTools.git</developerConnection>
-        <url>https://github.com/Luis-Cruz/PostCodeTools</url>
+	<connection>scm:git:git@github.com:FenixEdu/PostCodeTools.git</connection>
+        <developerConnection>scm:git:git@github.com:FenixEdu/PostCodeTools.git</developerConnection>
+        <url>https://github.com/FenixEdu/PostCodeTools</url>
         <tag>HEAD</tag>
     </scm>
 
