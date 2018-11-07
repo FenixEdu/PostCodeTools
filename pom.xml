@@ -18,6 +18,11 @@
         <url>https://github.com/FenixEdu/PostCodeTools</url>
         <tag>HEAD</tag>
     </scm>
+    
+    <issueManagement>
+        <system>JIRA</system>
+        <url>https://jira.fenixedu.org/browse/PCT</url>
+    </issueManagement>
 
     <repositories>
         <repository>
