@@ -24,6 +24,15 @@
         <url>https://jira.fenixedu.org/browse/PCT</url>
     </issueManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <repositories>
         <repository>
             <id>fenixedu-maven-repository</id>

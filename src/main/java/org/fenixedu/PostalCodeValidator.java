@@ -18,8 +18,12 @@ public class PostalCodeValidator {
     private static Map<String, JsonObject> validatorMap = new HashMap<>();
 
     static {
-        try (final InputStream stream = PostalCodeValidator.class.getResourceAsStream("/postal-codes.json");
-                final InputStreamReader reader = new InputStreamReader(stream)) {
+        loadDefaultPostCodes();
+    }
+
+    public static void reloadPostCodes(InputStream stream) {
+        validatorMap.clear();
+        try (final InputStreamReader reader = new InputStreamReader(stream)) {
             final JsonArray array = new JsonParser().parse(reader).getAsJsonArray();
             array.forEach(je -> {
                 final JsonObject validator = je.getAsJsonObject();
@@ -29,6 +33,14 @@ public class PostalCodeValidator {
         } catch (final IOException e) {
             throw new Error(e);
         }
+    }
+
+    public static void loadDefaultPostCodes() {
+        reloadPostCodes(PostalCodeValidator.class.getResourceAsStream("/postal-codes.json"));
+    }
+
+    public static Map<String, JsonObject> getValidatorMap() {
+        return validatorMap;
     }
 
     /**
