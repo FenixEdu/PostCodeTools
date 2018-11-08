@@ -5,7 +5,7 @@
     "ISO": "",
     "Format": "BIQQ 1ZZ",
     "Regex": "^[Bb][Ii][Qq]{2}\\s{0,1}[1][Zz]{2}$",
-    "Example": "Desconhecido"
+    "Example": "BiqQ1zZ"
   },
   {
     "Note": "U.S. ZIP codes. ZIP codes 006XX for NW PR, 007XX for SE PR, in which XX designates the town or post office and 009XX for the San Juan Metropolitan Area, in which XX designates the area or borough of San Juan. The last four digits identify an area within the post office. For example 00716-2604: 00716-for the east section of the city of Ponce and 2604 for Aceitillo St. in the neighborhood of Los Caobos. US Post office is changing the PR address format to the American one: 1234 No Name Avenue, San Juan, PR 00901.",
@@ -381,7 +381,7 @@
     "ISO": "SE",
     "Format": "NNNNN (NNN NN)",
     "Regex": "^(\\d{5}|\\d{3}\\s\\d{2})$",
-    "Example": "70040 (700 40)"
+    "Example": "70040"
   },
   {
     "Note": "Each building has its own unique postcode.",
@@ -445,7 +445,7 @@
     "ISO": "SK",
     "Format": "NNNNN (NNN NN)",
     "Regex": "^(\\d{5}|\\d{3}\\s\\d{2})$",
-    "Example": "75350 (506 84)"
+    "Example": "75350"
   },
   {
     "Note": "",
@@ -1069,7 +1069,7 @@
     "ISO": "GB",
     "Format": "A(A)N(A/N)NAA (A[A]N[A/N] NAA)",
     "Regex": "^([A-Za-z]{1,2}\\d([A-Za-z]|\\d)?\\d[A-Za-z]{2}|[A-Za-z]{1,2}\\d([A-Za-z]|\\d)?\\s\\d[A-Za-z]{2})$",
-    "Example": "j6Q3we - (j6Q 3we) js6Q3we - (js6Q 3we)"
+    "Example": "j6Q3we"
   },
   {
     "Note": "",
@@ -1308,7 +1308,7 @@
     "Country": "Isle of Man",
     "ISO": "IM",
     "Format": "CCN NAA, CCNN NAA",
-    "Regex": "^[Ii[Mm]\\d{1,2}\\s\\d\\[A-Z]{2}$",
+    "Regex": "^[Ii][Mm]\\d{1,2}\\s\\d[A-Z]{2}$",
     "Example": "IM1 1AJ"
   },
   {
