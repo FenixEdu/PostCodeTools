@@ -1,0 +1,10 @@
+[
+  {
+    "Note": "",
+    "Country": "Portugal",
+    "ISO": "PT",
+    "Format": "NNNN-NNN (NNNN NNN)",
+    "Regex": "^\\d{4}[- ]{0,1}\\d{3}$",
+    "Example": "0000-000"
+  }
+]
