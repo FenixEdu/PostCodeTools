@@ -1347,7 +1347,7 @@
     "Note": "(Persian: کد پستی)",
     "Country": "Iran",
     "ISO": "IR",
-    "Format": "NNNNN-NNNNN",
+    "Format": "NNNNN",
     "Regex": "^\\d{5}$",
     "Example": "34504"
   },
