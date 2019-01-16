@@ -53,10 +53,14 @@ public class PostalCodeValidator {
      *         specified country code otherwise false.
      */
     public static boolean isValidAreaCode(final String countryCode, final String postCode) {
-        final String regex = fieldFor(countryCode, "Regex");
-        final Pattern pattern = Pattern.compile(regex);
-        final Matcher matcher = pattern.matcher(postCode);
-        return matcher.matches();
+        try {
+            final String regex = fieldFor(countryCode, "Regex");
+            final Pattern pattern = Pattern.compile(regex);
+            final Matcher matcher = pattern.matcher(postCode);
+            return matcher.matches();
+        } catch (Error e) {
+            return false;
+        }
     }
 
     /**
