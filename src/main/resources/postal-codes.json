@@ -1412,7 +1412,7 @@
     "Country": "Japan",
     "ISO": "JP",
     "Format": "NNNNNNN (NNN-NNNN)",
-    "Regex": "^\\d{7}\\s\\(\\d{3}-\\d{4}\\)$",
+    "Regex": "^\\d{7}|\\d{3}-\\d{4}$",
     "Example": "5263321 (062-3535)"
   },
   {
