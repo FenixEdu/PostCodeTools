@@ -120,11 +120,11 @@
     "Example": "Desconhecido"
   },
   {
-    "Note": "Codigo Postal Argentino (CPA), where the first A is the province code as in ISO 3166-2:AR, the four numbers are the old postal codes, the three last letters indicate a side of the block. Previously NNNN which &#10;o the minimum requirement as of 2006.",
+    "Note": "Codigo Postal Argentino (CPA), where the first A is the province code as in ISO 3166-2:AR, the four numbers are the old postal codes, the three last letters indicate a side of the block. Previously NNNN which &#10;o the minimum requirement as of 2006. 1974-1998 NNNN; From 1999 ANNNNAAA but this second format is not mandatory, so when it becomes we can add this validation |[A-Za-z]\\d{4}[a-zA-Z]{3}",
     "Country": "Argentina",
     "ISO": "AR",
-    "Format": "1974-1998 NNNN; From 1999 ANNNNAAA",
-    "Regex": "^\\d{4}|[A-Za-z]\\d{4}[a-zA-Z]{3}$",
+    "Format": "NNNN",
+    "Regex": "^\\d{4}$",
     "Example": "3913"
   },
   {
@@ -380,8 +380,8 @@
     "Country": "Sweden",
     "ISO": "SE",
     "Format": "NNNNN (NNN NN)",
-    "Regex": "^(\\d{5}|\\d{3}\\s\\d{2})$",
-    "Example": "70040"
+    "Regex": "^\\d{3}\\s\\d{2}$",
+    "Example": "700 40"
   },
   {
     "Note": "Each building has its own unique postcode.",
@@ -915,9 +915,9 @@
     "Note": "Почтовые индексы",
     "Country": "Uzbekistan",
     "ISO": "UZ",
-    "Format": "NNN NNN",
-    "Regex": "^\\d{3} \\d{3}$",
-    "Example": "895 258"
+    "Format": "NNNNNN",
+    "Regex": "^\\d{6}$",
+    "Example": "895258"
   },
   {
     "Note": "Single code used for all addresses. Part of the Italian postal code system.",
@@ -1411,9 +1411,9 @@
     "Note": "See also Japanese addressing system.",
     "Country": "Japan",
     "ISO": "JP",
-    "Format": "NNNNNNN (NNN-NNNN)",
-    "Regex": "^\\d{7}|\\d{3}-\\d{4}$",
-    "Example": "5263321 (062-3535)"
+    "Format": "NNN-NNNN",
+    "Regex": "^\\d{3}-\\d{4}\\$",
+    "Example": "062-3535"
   },
   {
     "Note": "Deliveries to PO Boxes only. The postal code refers to the post office at which the receiver's P. O. Box is located.",
