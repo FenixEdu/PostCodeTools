@@ -1952,6 +1952,14 @@
     "Example": "pCRN1zZ"
   },
   {
+    "Note": "",
+    "Country": "Palestine",
+    "ISO": "PS",
+    "Format": "- no codes -",
+    "Regex": ".*",
+    "Example": "Desconhecido"
+  },
+  {
     "Note": "Rwanda does not have postal codes",
     "Country": "Rwanda",
     "ISO": "RW",
