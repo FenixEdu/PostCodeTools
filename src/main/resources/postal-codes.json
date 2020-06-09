@@ -413,7 +413,7 @@
     "ISO": "SI",
     "Format": "NNNN (CC-NNNN)",
     "Regex": "^([Ss][Ii][- ]{0,1}){0,1}\\d{4}$",
-    "Example": "sI 4235"
+    "Example": "4235"
   },
   {
     "Note": "Retained system inherited from former Soviet Union.",
