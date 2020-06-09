@@ -803,9 +803,9 @@
     "Note": "The first three digits of the postal code are required; the last two digits are optional. Codes are known as youdi quhao (郵遞區號), and are also assigned to Senkaku Islands (Diaoyutai), though Japanese-administered, the Pratas Islands and the Spratly Islands. See List of postal codes in Taiwan.",
     "Country": "Taiwan",
     "ISO": "TW",
-    "Format": "NNNNN",
-    "Regex": "^\\d{5}$",
-    "Example": "11546"
+    "Format": "NNN (NNNNN)",
+    "Regex": "^\\d{3,5}$",
+    "Example": "115"
   },
   {
     "Note": "",
@@ -1412,7 +1412,7 @@
     "Country": "Japan",
     "ISO": "JP",
     "Format": "NNN-NNNN",
-    "Regex": "^\\d{3}-\\d{4}\\$",
+    "Regex": "^\\d{3}-\\d{4}$",
     "Example": "062-3535"
   },
   {
