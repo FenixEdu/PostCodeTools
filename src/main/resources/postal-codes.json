@@ -444,8 +444,8 @@
     "Country": "Slovakia",
     "ISO": "SK",
     "Format": "NNNNN (NNN NN)",
-    "Regex": "^(\\d{5}|\\d{3}\\s\\d{2})$",
-    "Example": "75350"
+    "Regex": "^\\d{3}\\s\\d{2}$",
+    "Example": "753 50"
   },
   {
     "Note": "",
