@@ -1515,9 +1515,9 @@
     "Note": "The first four digits represent the region or postal zone,the last four digits represent the building see also Lebanon Postal code website.",
     "Country": "Lebanon",
     "ISO": "LB",
-    "Format": "NNNN NNNN",
-    "Regex": "^\\d{4}\\s{0,1}\\d{4}$",
-    "Example": "7321 2290"
+    "Format": "NNNNNNNN",
+    "Regex": "^\\d{8}$",
+    "Example": "73212290"
   },
   {
     "Note": "",
