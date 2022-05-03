@@ -1101,7 +1101,7 @@
     "ISO": "GG",
     "Format": "AAN NAA, AANN NAA",
     "Regex": "^[A-Za-z]{2}\\d\\s{0,1}\\d[A-Za-z]{2}$",
-    "Example": "Hk5\r0lc"
+    "Example": "Hk5 0lc"
   },
   {
     "Note": "[citation needed]",
@@ -1517,7 +1517,7 @@
     "ISO": "LB",
     "Format": "NNNN NNNN",
     "Regex": "^\\d{4}\\s{0,1}\\d{4}$",
-    "Example": "7321\r2290"
+    "Example": "7321 2290"
   },
   {
     "Note": "",
