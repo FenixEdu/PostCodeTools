@@ -9,7 +9,7 @@
 
     <artifactId>postCodeTools</artifactId>
     <name>PostCodeTools</name>
-    <version>1.5.0-SNAPSHOT</version>
+    <version>DEV-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <scm>
