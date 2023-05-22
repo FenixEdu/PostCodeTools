@@ -9,14 +9,14 @@
 
     <artifactId>postCodeTools</artifactId>
     <name>PostCodeTools</name>
-    <version>2.0.0</version>
+    <version>DEV-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <scm>
 	<connection>scm:git:git@github.com:FenixEdu/PostCodeTools.git</connection>
         <developerConnection>scm:git:git@github.com:FenixEdu/PostCodeTools.git</developerConnection>
         <url>https://github.com/FenixEdu/PostCodeTools</url>
-        <tag>v2.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <issueManagement>
